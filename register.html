@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+	 <link rel="stylesheet" type="text/css" href="style4.css">
+</head>
+<body>
+	<div class="container d-flex align-items-center h-100">
+	<form method="GET">
+		<div class="name">
+		First Name: <input type="text" name="Firstname"></div><br>
+		<div class="name">Last Name: <input type="text" name="Lastname"></div><br>
+		<div class="name">Email: <input type="email" name="email" required></div><br>
+		<div class="name">Password: <input type="Password" name="Password" min="5"></div><br>
+		<div class="name">Birthday: <input type="date" name="Birthday"></div><br>
+		<div class="name"> Gender: <br>
+			<input type="radio" name="gender" value="Male">Male<br>
+			<input type="radio" name="gender" value="Female">Female<br>
+			<input type="radio" name="gender" value="Other">Other<br>
+		</div>
+		<div class="name"> Pets: <br>
+		    <input type="checkbox" name="Cat"> Cat<br>
+		    <input type="checkbox" name="dog"> Dog<br>
+		</div>
+    	<div class="name"> Cars: <br>
+	    	<select name="Cars">
+	    		<option value="Maruti Suzuki">Maruti Suzuki</option>
+	    		<option value="Toyota">Toyota</option>
+	    	</select><br>
+    	</div>
+    	<input type="Submit" value="Register!">
+    	<input type="Reset">
+		</form>  
+		<hr>
+		<a href="index.html">
+	  	<button type="button" class="btn btn-primary"> GO BACK </button>
+	    </a>
+    </div>
+</body>
+</html>
